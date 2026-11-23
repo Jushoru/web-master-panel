@@ -1,0 +1,34 @@
+{
+  "name": "web-master-panel",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "prepare": "git config core.hooksPath .git-hooks",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "@nuxt/eslint": "^1.17.0",
+    "@nuxt/image": "^2.1.0",
+    "@nuxtjs/sitemap": "^9.1.0",
+    "h3": "1.15.11",
+    "nuxt": "^4.5.2",
+    "vue": "^3.5.39",
+    "vue-router": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.9.5",
+    "sass": "^1.101.0",
+    "typescript": "6.0.3",
+    "vue-tsc": "^3.3.7"
+  }
+}
