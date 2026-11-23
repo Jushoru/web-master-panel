@@ -30,7 +30,7 @@ npm run format:check    # prettier --check
 
 ### Health-check (`/health`)
 
-`server/routes/health.get.ts` — минимальный `{status: "ok", timestamp}`. HTTP-код всегда 200 
+`server/routes/health.get.ts` — минимальный `{status: "ok", timestamp}`. HTTP-код всегда 200
 
 ## Известные нюансы тулчейна
 
